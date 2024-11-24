@@ -13,7 +13,7 @@ jobs:
       - run: echo "Hello GitHub Actions!"
 
       - name: Checkout
-        uses: actions/checkout@4.2.2
+        uses: actions/checkout@v4.2.2
 
       - name: List files in repository
         run: |
